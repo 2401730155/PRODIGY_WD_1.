@@ -1,0 +1,59 @@
+
+🎨 CSS (style.css)
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header/Nav Styling */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #333;
+  padding: 15px 0;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links li {
+  margin: 0 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #ffcc00;
+}
+
+/* Scroll change class */
+.scrolled {
+  background-color: #222;
+}
+
+/* Sections */
+section {
+  padding: 100px 20px;
+  margin-top: 60px;
+  height: 100vh;
+}
